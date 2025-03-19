@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>All About My Self</title>
+    <style>
+
+body {
+            background-image:url(image/d95862676614ec1b94f3f0a5de015927.jpg);
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+        }
+
+        #ab, #my, #hobbie, #Favourite, #friend {
+            text-align: center;
+        }
+
+        #ab img {
+            display: block;
+            margin: 0 auto;
+            height: 400px;
+            border-radius: 20px;
+        }
+
+        #my {
+            text-align: center;
+        }
+
+        #my .image-container, #hobbie .image-container, #Favourite .image-container, #friend .image-container {
+            display: flex;
+            justify-content: center;
+            gap: 40px;
+        }
+
+        #my .image-container img, #hobbie .image-container img, #Favourite .image-container img, #friend .image-container img {
+            height: 250px;
+        }
+
+        #top {
+            text-align: center;
+        }
+
+        nav ul li a:hover {
+            color: rgb(0, 0, 0);
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            font-size: 18px;
+            font-weight: bold;
+        }
+
+        nav ul li {
+            display: inline-block;
+            margin: 0 15px;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            text-align: center;
+        }
+
+        h1 {
+            text-decoration: none;
+            font-size: 35px;
+            font-weight: bold;
+            color: navy;
+        }
+
+        .bold {
+            font-size: 25px;
+            font-weight: bold;
+        }
+
+        .si {
+            font-size: 20px;
+            font-weight: bold;
+        }
+
+        .zi {
+            font-size: 34px;
+            font-weight: bold;
+            animation: rainbow 5s linear infinite;
+        }
+
+        @keyframes rainbow {
+            0% { color: red; }
+            14% { color: darkred; }
+            28% { color: darkblue; }
+            42% { color: gray; }
+            57% { color: blue; }
+            71% { color: indigo; }
+            85% { color: black; }
+            100% { color: red; }
+        }
+
+        .text {
+            font-size: 24px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <article>
+        <header id="top">
+            <h1 style="color: navy;">My Personal Web</h1>
+        </header>
+
+        <nav>
+            <ul>
+                <li><a href="index.html" style="text-decoration: underline;">Home</a></li>
+                <li><a href="ab.html" style="text-decoration: underline;">About Myself</a></li>
+                <li><a href="movie.html" style="text-decoration: underline;">Movie</a></li>
+                <li><a href="fam.html" style="text-decoration: underline;">Favorites</a></li>
+                
+            </ul>
+        </nav>
+        <hr>
+
+        <section id="fam">
+            <h2 class="zi">My Family</h2><br>
+        
+            <a class="si">INTRODUCTION</a><br>
+        
+            <p class="text">So, These is my Family, my one and only Family in this wolrd</p>
+            <p class="text">I love my family because they've given me a purpose in life. I'm here in this world because of them, </p>
+            <p class="text"> and I'm so grateful to be their daughter. I strive to make them proud and to live a life that honors their love and sacrifices.</p>
+
+            <div class="image-container">
+                <img src="image/fam.jpeg" alt="family" height="300" class="rounded-image">
+            </div><br>
+        </section>
+    
+   
+    </article>
+
+    </article>
+
+</body>
+</html>

@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sabel Web</title>
+    <style>
+
+body {
+            background-image: url(image/d95862676614ec1b94f3f0a5de015927.jpg);
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+        }
+
+        #ab, #hobbie, #Favourite, #fam {
+            text-align: center;
+        }
+
+        #ab img {
+            display: block;
+            margin: 0 auto;
+            width: 400px;
+            height: auto;
+            border-radius: 20px; 
+        }
+
+         #hobbie .image-container, #Favourite .image-container {
+            display: flex;
+            justify-content:   center;
+            gap: 40px;
+        }
+
+         #hobbie .image-container img, #Favourite .image-container img  {
+            height: 250px;
+        }
+
+        #top {
+            text-align: center;
+        }
+
+        nav ul li a:hover {
+            color: rgb(0, 0, 0);
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            font-size: 18px;
+            font-weight: bold;
+        }
+
+        nav ul li {
+            display: inline-block;
+            margin: 0 15px;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            text-align: center;
+        }
+
+        h1 {
+            text-decoration: none;
+            font-size: 35px;
+            font-weight: bold;
+            color: navy;
+        }
+
+        .bold {
+            font-size: 25px;
+            font-weight: bold;
+        }
+
+        .si {
+            font-size: 20px;
+            font-weight: bold;
+        }
+
+        .zi {
+            font-size: 34px;
+            font-weight: bold;
+            animation: rainbow 5s linear infinite;
+        }
+
+        @keyframes rainbow {
+            0% { color: red; }
+            14% { color: darkred; }
+            28% { color: darkblue; }
+            42% { color: gray; }
+            57% { color: blue; }
+            71% { color: indigo; }
+            85% { color: black; }
+            100% { color: red; }
+        }
+
+        .text {
+            font-size: 24px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <article>
+        <header id="top">
+            <h1 style="color: navy;">My Personal Web</h1>
+        </header>
+
+        <nav>
+            <ul>
+                <li><a href="index.html" style="text-decoration: underline;">Home</a></li>
+                <li><a href="ab.html" style="text-decoration: underline;">About Myself</a></li>
+                <li><a href="movie.html" style="text-decoration: underline;">Movie</a></li>
+                <li><a href="fam.html" style="text-decoration: underline;">Favorites</a></li>
+                
+            </ul>
+        </nav>
+        <hr>
+
+        
+        <section id="ab">
+            <h2 class="zi">Owner</h2>
+            <p class="si">Isabelle</p>
+            <img src="image/download.jpeg" alt="Isabelle Logo" height="150" class="rounded-image">
+            <p class="text">Hello! I'm Isabelle Celestin, and I’m excited to share my journey as I develop my very first website. This</p>
+            <p class="text">project marks the beginning of my exploration into the world of web development, combining</p>
+            <p class="text">creativity, problem-solving, and a desire to build something unique.</p><br>
+            <p class="text">I’m learning as I go and embracing the challenges along the way. Through this experience, I aim to</p>
+            <p class="text">grow my skills and share my progress with you. Thank you for visiting, and I look forward to</p>
+            <p class="text">connecting and learning together!</p>
+        </section>
+
+    </article>
+
+</body>
+</html>
